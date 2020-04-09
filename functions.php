@@ -149,5 +149,3 @@ function aup_add_bp_notification($comment_id, $comment_approved) {
 	}
 }
 add_action('comment_post', 'aup_add_bp_notification', 10, 2);
-//add_action('transition_comment_status', 'aup_add_bp_notification', 10, 3);
-//add_action( 'edit_comment', 'aup_add_bp_otification', 10    );
