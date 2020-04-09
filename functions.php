@@ -18,9 +18,9 @@ add_action('after_setup_theme', function () {
 
 
 
-// -------------
-// Arcadia Stuff
-// -------------
+// ----------------
+// Stay Other Stuff
+// ----------------
 
 require_once get_template_directory() .'/inc/init.php';
 define('WOFFICE_THEME_VERSION', '2.8.7');
